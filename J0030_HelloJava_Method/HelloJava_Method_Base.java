@@ -1,4 +1,5 @@
 // HelloJava_Method_Base.java
+// https://github.com/lifeplan-it/Java_Source
 // 概要
 // 　　文字列を出力するメソッドを作成する事例です。
 // 　　メソッドによって処理を整理しています
