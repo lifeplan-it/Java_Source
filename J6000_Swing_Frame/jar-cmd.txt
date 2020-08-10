@@ -1,0 +1,1 @@
+jar cvfm SwingFrameMain.jar Manifest.txt *.class
