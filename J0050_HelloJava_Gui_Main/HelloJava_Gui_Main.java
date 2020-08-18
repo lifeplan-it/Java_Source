@@ -19,11 +19,10 @@ class HelloJava_Gui_Main
   public static void HelloJava_Gui_Method ()
   {
     // クラスのオブジェクト化
-  	HelloJava_Gui_subClass obj
-	     = new HelloJava_Gui_subClass ();
+    HelloJava_Gui_subClass obj = new HelloJava_Gui_subClass ();
 
     //  オブジェクト化したメソッドの実行
-	  String str = "Hello JAVA!!" ;
+    String str = "Hello JAVA!!" ;
     obj.HelloJava_Gui_subClass_method ( str ) ;
   }
 }
@@ -39,7 +38,7 @@ class HelloJava_Gui_subClass extends Frame
   public void HelloJava_Gui_subClass ( )
   {
       // このクラスでは何もしない
-	    // this.super　( "Hello JAVA" ) ;
+      // this.super　( "Hello JAVA" ) ;
   }
 
   // メインクラスから呼び出されるメソッド
@@ -48,7 +47,7 @@ class HelloJava_Gui_subClass extends Frame
     // タイトル定義
     setTitle ( "Hello JAVA" );
     // Frameのサイズの定義
-	  setBounds(200, 200, 100, 80);
+    setBounds(200, 200, 100, 80);
     // Frameのサイズの定義
     setSize(480, 240);
     // レイアウトマネージャーの定義
@@ -61,14 +60,14 @@ class HelloJava_Gui_subClass extends Frame
     // ラベルの位置定義
     lb.setBounds(10, 50, 250,  20);
     // 文字の色
-	  lb.setForeground(Color.BLUE);
+    lb.setForeground(Color.BLUE);
     // 表示Fontの設定
     lb.setFont(new Font("Serif", Font.BOLD, 24));
 
     // FrameにLabelを追加
-	   add(lb);
-     // イベントリスナの定義
-	   addWindowListener(new GuiWindowListener());
+    add(lb);
+    // イベントリスナの定義
+    addWindowListener(new GuiWindowListener());
   }
 
    // イベントの処理
