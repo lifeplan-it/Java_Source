@@ -1,25 +1,21 @@
-// HelloJava_Gui_Base.java
+// HelloJava_Gui_Main.java
 // 概要
 // 　　Frameに文字を出力するプログラム
 
-// GUI用ライブラリの利用の定義
-import java.awt.*;
-// GUI用イベントライブラリの定義
-import java.awt.event.*;
-
 // メインクラス
-class HelloJava_Gui_Base
+class HelloJava_Gui_Main
 {
   // メインメソッド
   public static void main(String[] args)
   {
-	HelloJava_Gui_Method () ;
+     // メソッド            
+     HelloJava_Gui_Method () ;
   }
 
-  // 処理メソッド
+  // メソッド
   public static void HelloJava_Gui_Method ()
   {
-      // クラスのオブジェクト化        
+      // クラスのインスタンス化        
       HelloJava_Gui_subClass obj = new HelloJava_Gui_subClass ();
       // 引数の初期化
       String str = "Hello JAVA!!" ;
@@ -27,6 +23,10 @@ class HelloJava_Gui_Base
       obj.HelloJava_Gui_subClass_method ( str ) ;
   }
 }
+// GUI用ライブラリの利用の定義
+import java.awt.*;
+// GUI用イベントライブラリの定義
+import java.awt.event.*;
 
 // ライブラリのクラスを使ったサブクラスの作成
 // HelloJava_Gui_subClass.java
@@ -46,19 +46,30 @@ class HelloJava_Gui_subClass extends Frame
  // メインクラスから呼び出されるメソッド
   public void HelloJava_Gui_subClass_method (String str )
   {
-      setTitle ( "Hello JAVA" );			// タイトル定義
-      setBounds(200, 200, 100, 80);		// Frameのサイズの定義
-      setSize(480, 240);			// Frameのサイズの定義
-      setLayout(null) ; 				// レイアウトマネージャーの定義
-      setVisible(true);				// 表示の指定
+    // タイトル定義
+    setTitle ( "Hello JAVA" );
+    // Frameのサイズの定義
+    setBounds(200, 200, 100, 80);
+    // Frameのサイズの定義
+    setSize(480, 240);
+    // レイアウトマネージャーの定義
+    setLayout(null) ; 
+    // 表示の指定
+    setVisible(true);
 
-      lb = new Label( str );			// ラベルの定義（引数　str ）を使用
-      lb.setBounds(10, 40, 250,  20);		// ラベルの位置定義
-      lb.setForeground(Color.BLUE);		// 文字の色
-      lb.setFont(new Font("Serif", Font.BOLD, 24));	// 表示Fontの設定
+    // ラベルの定義（引数　str ）を使用
+    lb = new Label( str );
+    // ラベルの位置定義
+    lb.setBounds(10, 40, 250,  20);
+    // 文字の色
+    lb.setForeground(Color.BLUE);
+    // 表示Fontの設定
+    lb.setFont(new Font("Serif", Font.BOLD, 24));
 
-      add(lb);				// FrameにLabelを追加
-      addWindowListener(new GuiWindowListener());	// イベントリスナの定義
+    // FrameにLabelを追加
+    add(lb);
+    // イベントリスナの定義
+    addWindowListener(new GuiWindowListener());
   }
 
    // イベントの処理
@@ -67,7 +78,9 @@ class HelloJava_Gui_subClass extends Frame
       // Close イベントの取得
       public void windowClosing(WindowEvent e)
       {
-         System.exit(0);				// 終了
+         // 終了
+         System.exit(0);
       }
    }
 }
+
