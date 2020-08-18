@@ -1,0 +1,11 @@
+$ javac HelloJava_Gui.java
+
+$ jar cvfm HelloJava_Gui.jar HelloJava_Gui.mf *.class
+マニフェストが追加されました
+HelloJava_Gui.classを追加中です(入=302)(出=226)(25%収縮されました)
+HelloGui$GuiWindowListener.classを追加中です(入=513)(出=343)(33%収縮されま した)
+HelloGui.classを追加中です(入=706)(出=476)(32%収縮されました)
+
+$ HelloJava_Gui.jar
+
+$
