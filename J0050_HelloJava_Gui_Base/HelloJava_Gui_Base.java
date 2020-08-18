@@ -1,4 +1,4 @@
-// HelloJava_Gui_Main.java
+// HelloJava_Gui_Base.java
 // 概要
 // 　　Frameに文字を出力するプログラム
 
@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 // メインクラス
-class HelloJava_Gui_Main
+class HelloJava_Gui_Base
 {
   // メインメソッド
   public static void main(String[] args)
