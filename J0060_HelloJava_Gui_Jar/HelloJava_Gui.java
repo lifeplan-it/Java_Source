@@ -1,21 +1,21 @@
-// HelloJava_Class_extends.java
+// HelloJava_Gui.java
 
 import java.awt.*;
 import java.awt.event.*;
 
 //　メインクラス
-class HelloJava_Class_extends {
+class HelloJava_Gui {
   public static void main(String[] args) {
         // クラス      HelloGui　をオブジェクト化
-        HelloJava_class obj = new HelloJava_class();
+        HelloGui obj = new HelloGui();
   }
 }
 
 // サブクラス　　HelloGui
 // スーパークラス　Frame　クラスを拡張しています。
-class HelloJava_class extends Frame {
-   // コンストラクタ
-   public HelloJava_class()  {
+class HelloGui extends Frame {
+   // コンストラクタで実行しています。
+   public HelloGui()  {
 
         // タイトルを表示
         this.setTitle("Frame Demo");
@@ -37,9 +37,8 @@ class HelloJava_class extends Frame {
         addWindowListener(new GuiWindowListener());
    }
 
-   // Windows アダプタ
-   class GuiWindowListener extends WindowAdapter  {
-      // マウスイベント　Windows の閉じるボタンが押された時の処理
+class GuiWindowListener extends WindowAdapter  {
+      // Windows の閉じるボタンが押された時の処理
       public void windowClosing(WindowEvent e) {
          // 終了
          System.exit(0);
