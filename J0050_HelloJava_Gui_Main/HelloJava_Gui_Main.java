@@ -2,11 +2,15 @@
 // 概要
 // 　　Frameに文字を出力するプログラム
 
-import java.awt.*;		// GUI用ライブラリの利用の定義
-import java.awt.event.*;	// GUI用イベントライブラリの定義
+// GUI用ライブラリの利用の定義
+import java.awt.*;
+// GUI用イベントライブラリの定義
+import java.awt.event.*;
 
-class HelloJava_Gui_Main  {	// メインクラス
-  public static void main(String[] args) {			// メインメソッド
+// メインクラス
+class HelloJava_Gui_Main  {
+  // メインメソッド
+  public static void main(String[] args) {
 	HelloJava_Gui_Method () ;
   }
   public static void HelloJava_Gui_Method () {		// GUI用メソッド
