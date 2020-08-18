@@ -9,12 +9,13 @@ import java.awt.event.*;
 // メインクラスの定義
 class HelloJava_Class_Method {
 // メインメソッドの定義
-  public static void main(String[] args) {
-	HelloJava_Class_sub () ;
-   }
+  public static void main(String[] args)
+  {
+     HelloJava_Class_sub () ;
+  }
 
-  public static void HelloJava_Class_sub () {
-
+  public static void HelloJava_Class_sub ()
+  {
      Frame Frame1 = new Frame() ; 
      Frame1.setTitle("Frame_method");
      Frame1.setBounds(100, 100, 320, 240 );
@@ -23,7 +24,5 @@ class HelloJava_Class_Method {
      
      Frame1.add( Label1 );
      Frame1.setVisible(true);
-
   }
-
 }
