@@ -26,7 +26,7 @@ class Output_print_Base {
 
   // 数　値のリテラル出力をするメソッド
   private static void Output_Numerical () {
-	  System.out.println("ようこそJavaへ!");
+	  System.out.println( 123 );
   }
 
   // 文字列のリテラル出力をするメソッド
