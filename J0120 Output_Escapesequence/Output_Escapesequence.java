@@ -1,58 +1,67 @@
 // Output_Escapesequence.java
-// ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã‚·ãƒ¼ã‚±ãƒ³ã‚¹
-// Â¥b	ãƒãƒƒã‚¯ã‚¹ãƒšãƒ¼ã‚¹
-// Â¥t	æ°´å¹³ã‚¿ãƒ–
-// Â¥n	æ”¹è¡Œ
-// Â¥r	å¾©å¸°
-// Â¥f	æ”¹ãƒšãƒ¼ã‚¸
-// Â¥'	ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³
-// Â¥"	ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³
-// Â¥Â¥	Â¥æ–‡å­—
-// Â¥ooo	8é€²æ•°ã®æ–‡å­—ã‚³ãƒ¼ãƒ‰ãŒè¡¨ã™æ–‡å­—
-// Â¥uhhhh	16é€²æ•°ã®æ–‡å­—ã‚³ãƒ¼ãƒ‰ãŒè¡¨ã™æ–‡å­—
+// ƒGƒXƒP[ƒvƒV[ƒPƒ“ƒXo—Í
+// ‰p”ˆÈŠO‚Ì•¶š‚ğo—Í‚µ‚½‚¢‚Ég—p‚µ‚Ü‚·B
+// å‚ÈƒGƒXƒP[ƒvƒV[ƒPƒ“ƒX
+// \b BS     ƒoƒbƒNƒXƒy[ƒX(Back Space)
+// \t  TAB	…•½ƒ^ƒu(TAB)
+// \n LF      ‰üs‚·‚é(Line Feed)
+// \r CR      •¶“ª‚É–ß‚·(Carriage Return)
+// \f CLS 	‰üƒy[ƒW(Page Feed)
+// \' 	ƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“(Single Quotation)
+// \"	ƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“(Double Quotation)
+// \\	\•¶š(Back Slash) 
+// 
+//  ƒTƒ“ƒvƒ‹ƒƒ\ƒbƒh
+// ‰üsi\nj‚ğo—Í‚·‚éƒƒ\ƒbƒh
+//   void Output_LF ()
+// TABi\tj‚ğo—Í‚·‚éƒƒ\ƒbƒh
+//      void Output_TAB () {
+// 'i\'j‚ğo—Í‚·‚éƒƒ\ƒbƒh
+//      void Output_SQuotation () 
+// "i\"j‚ğo—Í‚·‚éƒƒ\ƒbƒh
+//      void Output_WQuotation ()
 
-class Output_Escapesequence
-{
+class Output_Escapesequence {
   public static void main(String[] args)  {
-	// ãƒªãƒ†ãƒ©ãƒ«ã®å‡ºåŠ›
-	Output_Print_Literal ();
-	Output_Print_Add () ;
-	Output_Print_Esc () ;
-	Output_Print_Str () ;
-	Output_Print_Esc () ;
-	Output_Print_Tab ();
-   }
+      Output_LF () ;
+      Output_TAB ();
+      Output_SQuotation () ; 
+      Output_WQuotation () ; 
+      Output_BackSlash () ;
+  }
 
-   private static void Output_Print_Literal ()   {
-	// ãƒªãƒ†ãƒ©ãƒ«ã®å‡ºåŠ›
-      	System.out.println("ã‚ˆã†ã“ãJavaã¸!");
-   }
+  // ‰üsi\nj‚ğo—Í‚·‚éƒƒ\ƒbƒh
+  private static void Output_LF () {
+    System.out.println("");
+    System.out.println("s‚ğ‹­§“I‚É‰üs‚·‚é");
+    System.out.println("s‚ğ\n‹­§“I‚É\n‰üs‚·‚é");
+  }
 
-   private static void Output_Print_AddStr () {
-	// ãƒªãƒ†ãƒ©ãƒ«ã®çµåˆ
-	System.out.println("æ–‡å­—ã‚’" + "+" + "ã§" + "é€£çµã™ã‚‹");
-    }
- 
-   private static void Output_Print_NoLf () {
-	// æ”¹è¡Œã—ãªã„ã§å‡ºåŠ›ã™ã‚‹
-	System.out.print("printã¯");
-	System.out.print("æ”¹è¡Œ");
-	System.out.print("ã—ãªã„");
-	System.out.println("");
-    }
+  // TABi\tj‚ğo—Í‚·‚éƒƒ\ƒbƒh
+  private static void Output_TAB () {
+    System.out.println("");
+    System.out.println("TAB‚ÅŠÔŠu‚ğ‹ó‚¯‚é");
+    System.out.println("TAB \t ‚Å \tŠÔŠu‚ğ\t ‹ó‚¯‚é\t");
+  }
 
-    private static void Output_Print_Esc () {
-	// æ”¹è¡Œæ–‡å­—ï¼ˆ\nï¼‰
-	System.out.println("è¡Œã‚’\nå¼·åˆ¶çš„ã«\næ”¹è¡Œ");
-    }
+  // 'i\'j‚ğo—Í‚·‚éƒƒ\ƒbƒh
+  private static void Output_SQuotation () {
+    System.out.println("");
+    System.out.println("ƒVƒ“ƒOƒ‹ƒR[ƒeƒVƒ‡ƒ“‚Åu•¶šv‚ğˆÍ‚Ş");
+    System.out.println("ƒVƒ“ƒOƒ‹ƒR[ƒeƒVƒ‡ƒ“‚Å\'•¶š\'‚ğˆÍ‚Ş");
+  }
 
-    private static void Output_Print_Tab () {
-	// TABå­—ï¼ˆ\tï¼‰
-	System.out.print("TAB\t");
-	System.out.print("ã§\t");
-	System.out.print("é–“éš”ã‚’\t");
-	System.out.print("ç©ºã‘ã‚‹\t");
-	System.out.println("");
-    }
+  // "i\"j‚ğo—Í‚·‚éƒƒ\ƒbƒh
+  private static void Output_WQuotation () {
+    System.out.println("");
+    System.out.println("ƒ_ƒuƒ‹ƒR[ƒeƒVƒ‡ƒ“‚Åu•¶šv‚ğˆÍ‚Ş");
+    System.out.println("ƒ_ƒuƒ‹ƒR[ƒeƒVƒ‡ƒ“‚Å\"•¶š\"‚ğˆÍ‚Ş");
+  }
 
+ // \ \\ ‚ğo—Í‚·‚éƒƒ\ƒbƒh
+  private static void Output_BackSlash () {
+    System.out.println("");
+    System.out.println("ƒoƒbƒNƒXƒ‰ƒbƒVƒ…‚ğo—Í‚·‚é");
+    System.out.println("ƒoƒbƒNƒXƒ‰ƒbƒVƒ…i\\j ‚ğo—Í‚·‚é");
+  }
 }
