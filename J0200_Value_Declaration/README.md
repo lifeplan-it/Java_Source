@@ -1,9 +1,9 @@
-#Java変数宣言
-# 　型	変数名;
-# 変数初期化
-# 　型	変数名=値;
-#
-# boolean true or false
+// Java変数宣言
+// 　型	変数名;
+// 変数初期化
+// 　型	変数名=値;
+// 
+// boolean true or false
 // char     16bit Unicode文字
 // byte       8bit 整数
 // byte     16bit 整数
