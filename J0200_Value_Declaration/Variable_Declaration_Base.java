@@ -28,7 +28,7 @@
 // 倍精度浮動小数点宣言のサンプルメソッド
 //     void Variable_Declaration_Double()
 
-// Variable_Declaration_Base.java
+// Variable_Base.java
 class Variable_Declaration_Base {
   public static void main(String[] args) {
     // 文字列宣言のサンプルメソッド
