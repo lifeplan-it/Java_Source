@@ -11,12 +11,31 @@
 // long     64bit 整数
 // float     32bit 単精度浮動小数点数
 // double 64bit 倍精度浮動小数点数
+// 
+// ###################################
+//サンプルコード
+// Variable_Declaration_Base.java
 //
+//メインクラス
+//     Variable_Declaration_Base
+//
+// 文字列宣言のサンプルメソッド
+//     void Variable_Declaration_String()
+//
+// 整数宣言のサンプルメソッド
+//     void Variable_Declaration_Int ()
+//
+// 倍精度浮動小数点宣言のサンプルメソッド
+//     void Variable_Declaration_Double()
+
 // Variable_Declaration_Base.java
 class Variable_Declaration_Base {
   public static void main(String[] args) {
+    // 文字列宣言のサンプルメソッド
     Variable_Declaration_String();
+    // 整数宣言のサンプルメソッド
     Variable_Declaration_Int ();
+    // 倍精度浮動小数点宣言のサンプルメソッド
     Variable_Declaration_Double();
   }
 
