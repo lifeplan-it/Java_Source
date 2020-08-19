@@ -9,6 +9,7 @@
 //    void Output_String
 // 文字列のリテラルを結合して出力するメソッド
 //    void Output_Add
+//
 // メインクラス
 class Output_print_Base {
   // メインメソッド
