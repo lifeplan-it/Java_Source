@@ -8,7 +8,7 @@
 // 改行しないで文字列のリテラルの出力をするメソッド
 //    void Output_String
 // 文字列のリテラルを結合して出力するメソッド
-//    void Output_Print_Add
+//    void Output_Add
 // メインクラス
 class Output_print_Base {
   // メインメソッド
@@ -26,17 +26,26 @@ class Output_print_Base {
 
   // 数　値のリテラル出力をするメソッド
   private static void Output_Numerical () {
-	  System.out.println( 123 );
+    System.out.println("");
+    System.out.println("数値を出力を出力するメソッド");
+
+    System.out.println( 123 );
   }
 
   // 文字列のリテラル出力をするメソッド
   private static void Output_String_lf () {
+    System.out.println("");
+    System.out.println("文字列のリテラル出力をするメソッド");
+
     System.out.println("ようこそ");
     System.out.println("Javaへ!");
   }
 
   // 改行しないで文字列のリテラル出力をするメソッド
   private static void Output_String ()  {
+    System.out.println("");
+    System.out.println("改行しないで文字列のリテラル出力をするメソッド");
+
     System.out.print("printは");
 	  System.out.print("改行");
 	  System.out.print("しない");
@@ -45,6 +54,9 @@ class Output_print_Base {
 
   // 文字列のリテラルを結合して出力するメソッド
   private static void Output_Add ()  {
-	   System.out.println("文字を" + "+" + "で" + "連結する");
+    System.out.println("");
+    System.out.println("文字列を結合してリテラル出力をするメソッド");
+
+	  System.out.println("文字を" + "+" + "で" + "連結する");
   }
 }
