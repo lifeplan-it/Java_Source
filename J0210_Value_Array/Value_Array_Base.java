@@ -1,5 +1,4 @@
 // Java 配列変数の宣言
-
 // 配列変数の宣言
 // 型名[]	配列変数名;
 // 配列変数名 = new 型名[要素数] ;
@@ -7,7 +6,6 @@
 // 型名[]	配列変数名 = new 型名[要素数] ;
 // リスト型
 // 型名[]	配列変数名 = { 値１, 値２, 値３,・・・} ;
-
 // Value_Array_Base.java
 class Value_Array_Base {
   public static void main(String[] args)   {
@@ -55,14 +53,11 @@ class Value_Array_Base {
 
   public static void Value_Array_List ()   {
 	String[] Japn1 = { "北海道" , "本州" , "四国", "九州", "沖縄"  } ;
-
 	System.out.println( "配列の長さ：" + Japn1.length );
 	System.out.println( Japn1[0] );
 	System.out.println( Japn1[1] );
 	System.out.println( Japn1[2] );
 	System.out.println( Japn1[3] );
 	System.out.println( Japn1[4] );
-
-
    }
 }
