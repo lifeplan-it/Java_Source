@@ -1,4 +1,4 @@
-// Output_print_Base.java
+// Output_print.java
 // 標準出力のサンプルプログラムです。
 //
 // 数　値のリテラル出力をするメソッド
@@ -11,7 +11,7 @@
 //    void Output_Add
 //
 // メインクラス
-class Output_print_Base {
+class Output_print {
   // メインメソッド
   public static void main(String[] args) {
     // 各メソッドの呼び出し
