@@ -12,50 +12,84 @@
 //
 // ArrayList データの削除
 //    配列変数名.remove( id, 値 );
-
+//
+// メインクラス
 // Variable_ArryList_Base.java
+// 追加処理のサンプルメソッド
+//    void Variable_ArryList_Add ( ArrayList<String> list );
+//
+//変更処理のサンプルメソッド
+//    void Variable_ArryList_Set ( ArrayList<String> list ) ;
+//
+// 削除処理のサンプルメソッド
+//    Void Variable_ArryList_Remove( ArrayList<String> list );
+//
+// Array List ライブラリの読み込み
 import java.util.ArrayList;
+// メインクラス
 public class Variable_ArryList_Base  {
+  // メインメソッド
   public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<String>();
+    // ArrayList変数の初期化
+    ArrayList<String> list = new ArrayList<String>();
+    
+    // Listの初期化　　
+    list.add("りんご");
+    list.add("みかん");
+    list.add("もも");
 
-        list.add("りんご");
-        list.add("みかん");
-        list.add("もも");
-        System.out.println("要素[0]:" + list.get(0));
-        System.out.println("要素[1]:" + list.get(1));
-        System.out.println("要素[2]:" + list.get(2));
-        System.out.println("初期化" + list);
+    // 初期データの表示
+    System.out.println("初期データの表示");
+    System.out.println("要素[0]:" + list.get(0));
+    System.out.println("要素[0]:" + list.get(0));
+    System.out.println("要素[1]:" + list.get(1));
+    System.out.println("要素[2]:" + list.get(2));
+    System.out.println("初期化" + list);
+    
+    // 追加処理のサンプルメソッド
+    Variable_ArryList_Add ( list );
 
-	Variable_ArryList_Add ( list );
-	Variable_ArryList_Set ( list ) ;
-	Variable_ArryList_Remove( list );
+    //変更処理のサンプルメソッド
+    Variable_ArryList_Set ( list ) ;
+
+    // 削除処理のサンプルメソッド
+    Variable_ArryList_Remove( list );
   }
 
   public static void Variable_ArryList_Add (ArrayList<String> list) {
-  
-        System.out.println("追加");
-        System.out.println("全要素:" + list);
-        System.out.println("追加（ブドウ）");
+     System.out.println("");
+     System.out.println("追加");
+     System.out.println("全要素:" + list);
+     System.out.println("追加（ブドウ）");
+     // ブドウの追加
+     list.add(1,"ブドウ");
 
-        list.add(1,"ブドウ");
-
-        System.out.println("追加後：" + list);
- 
-    }
+     // 追加後の確認
+     System.out.println("追加後：" + list);
+ }
   public static void Variable_ArryList_Set (ArrayList<String> list) {
-        System.out.println("更新");
-        System.out.println("全要素:" + list);
-        System.out.println("更新（ぶどう）");
-        list.set(1, "ぶどう" );
-        System.out.println("更新後：" + list);
-    }
+     System.out.println("");
+     System.out.println("更新処理");
+     System.out.println("全要素:" + list);
+     System.out.println("更新（ぶどう）");
+     
+     // ブドウ　→　ぶどう　に変更
+     list.set(1, "ぶどう" );
+     
+     // 削除後の確認
+     System.out.println("更新後：" + list);
+  }
 
-   public static void Variable_ArryList_Remove (ArrayList<String> list) {
-        System.out.println("削除");
-        System.out.println("全要素:" + list);
-        System.out.println("削除２");
-        list.remove(2);
-        System.out.println("全要素:" + list);
-    }
+  public static void Variable_ArryList_Remove (ArrayList<String> list) {
+      System.out.println("");
+      System.out.println("削除");
+      System.out.println("全要素:" + list);
+      System.out.println("削除２");
+
+      // 削除 
+      list.remove(2);
+
+     // 削除後の確認
+     System.out.println("全要素:" + list);
+  }
 }
