@@ -11,3 +11,15 @@
 // リスト型
 // 型名[]	配列変数名 = { 値１, 値２, 値３,・・・} ;
 //
+// サンプルコード
+//     Value_Array_Base.java
+// メインクラス
+//    Value_Array_Base
+// メッソド
+//     整数配列初期化のサンプルメソッド    
+//         void Value_Array_int() 
+//     文字列配列初期化のサンプルメソッド    
+//         void Value_Array_String () 
+//     リスト型文字列配列初期化のサンプルメソッド    
+//         void Value_Array_List () 
+//
