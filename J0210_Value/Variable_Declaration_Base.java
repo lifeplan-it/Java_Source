@@ -3,7 +3,6 @@
 // •Ï”‰Šú‰»
 // @Œ^	•Ï”–¼=’l;
 //
-//
 // boolean true or false
 // char     16bit Unicode•¶š
 // byte       8bit ®”
@@ -16,20 +15,19 @@
 // Variable_Declaration_Base.java
 class Variable_Declaration_Base {
   public static void main(String[] args) {
+    Variable_Declaration_String();
     Variable_Declaration_Int ();
     Variable_Declaration_Double();
-    Variable_Declaration_String();
-    Variable_Declaration_Char ();
   }
 
   // •¶š—ñ‚ÌéŒ¾@
   public static void Variable_Declaration_String () {
      String	Str1 ;
 
-     Str1 = "•¶š—ñ" ;
+     Str1 = "•¶š—ñ‚P" ;
      System.out.println( Str1 );
 
-     String	Str2 = "" ;
+     String	Str2 = "•¶š—ñ‚Q" ;
      System.out.println( Str2 );
   }
 
@@ -37,7 +35,7 @@ class Variable_Declaration_Base {
   public static void Variable_Declaration_Int () {
      int Var1  ;
 
-     Var1 = 111 ;
+     Var1 = 222 ;
      System.out.println( Var1 );
 
      int Var2 = 111 ;
