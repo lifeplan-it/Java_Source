@@ -15,7 +15,7 @@
 # ソースファイル
   HelloJava_Method.java
 
-# メインクラス
+# メインクラス  
 　HelloJava_Method
 
 # メソッド
