@@ -21,8 +21,8 @@
    　Variable_Map_Base
 * メソッド  
   MAPの初期化を行うメソッド   
-      Variable_Map_Init ( Map<String, String>)    
+        Variable_Map_Init ( Map<String, String>)    
   MAPの表示を行うメソッド  
-      Variable_Map_Print_Val( Map<String, String> )      
+        Variable_Map_Print_Val( Map<String, String> )      
   Mapのキーを表示するメソッド  
-      Variable_Map_Print_Key ( Map<String, String> )  
+        Variable_Map_Print_Key ( Map<String, String> )  
