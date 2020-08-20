@@ -22,11 +22,6 @@ class Hellojava_Class_Base {
 // サブクラス
 class Hellojava_Class_sub
 {
-  // コンストラクタ
-  Public Hellojava_Class_sub ()
-  {
-    // コンストラクタ (何もしない）
-  }
   // メソッドの定義
   public void Standard_out()
   {
