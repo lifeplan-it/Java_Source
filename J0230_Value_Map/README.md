@@ -14,15 +14,15 @@
 ### MAPにListを指定する
    Map<String, List<String>> map = new HashMap<>();  
 
-# クラス説明
+# クラス説明  
 ## ソースファイル名
    　Variable_Map_Base.Java
 ## メインクラス名
    　Variable_Map_Base
 ## メソッド
-    MAPの初期化を行うメソッド
+### MAPの初期化を行うメソッド
       Variable_Map_Init ( Map<String, String>)  
-## MAPの表示を行うメソッド
+### MAPの表示を行うメソッド
       Variable_Map_Print_Val( Map<String, String> )    
-## Mapのキーを表示するメソッド
+### Mapのキーを表示するメソッド
       Variable_Map_Print_Key ( Map<String, String> )
