@@ -20,8 +20,8 @@
 　HelloJava_Method
 
 # メソッド
-## void HelloJava_Print()
-   標準出力に文字を出力します。
+##  HelloJava_Print()
+    標準出力に文字列を出力
 */
 // HelloJava_Method.java
 // メインクラス
@@ -29,7 +29,7 @@ class HelloJava_Method {
     // メインメソッド
     public static void main(String[] args)
     {
-        // メソッド呼び出し
+        // 標準出力に文字列を出力
         HelloJava_Print () ;
     }
     // メソッド:HelloJava_Method
