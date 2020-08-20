@@ -41,10 +41,11 @@ class HelloJava_Base
 }
 
 ```
-## ソースファイル
+## ソースファイル  
     HelloJava_Base.java
-## メインクラス
+## メインクラス  
     HelloJava_Base
-## メソッド
-    無し
+## メソッド  
+    無し  
+    
 　　
