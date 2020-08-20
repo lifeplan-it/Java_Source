@@ -8,7 +8,7 @@
 　// メインクラス
   class HelloJava_Base
 　　{
-　　// メインメソッドを記述する
+　　  // メインメソッドを記述する
 　　}
   ```
 
@@ -18,3 +18,5 @@
 	{
 		System.out.println("Hello JAVA!!") ;
   }
+  ```
+  
