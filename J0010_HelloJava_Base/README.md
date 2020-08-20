@@ -5,6 +5,8 @@
 # 解説  
 ## クラスHelloJava_Baseを作成します  
 
+# プログラミングの手順
+## 1)メインクラスを作成します。  
 ```
 // メインクラス  
 class HelloJava_Base  
@@ -13,7 +15,7 @@ class HelloJava_Base
 }  
 ````
 
-## メインメソッドを作成します。  
+## 2)メインメソッドを作成します。  
 
 ```  
 // メインクラス
@@ -27,7 +29,7 @@ class HelloJava_Base
 }
 ```
 
-## 処理を記述します  
+## 3)処理を記述します  
 
 ```  
 // メインクラス
@@ -40,7 +42,7 @@ class HelloJava_Base
     System.out.println("Hello JAVA!!") ;
   }
 }
-
+ 
 ```
 ## ソースファイル  
     HelloJava_Base.java
