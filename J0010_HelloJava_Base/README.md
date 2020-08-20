@@ -12,11 +12,39 @@
 　　}  
 ````
 
-
 ## メインメソッドを作成します。  
 
-```  	public static void main(String[] args)
-      {
-		        System.out.println("Hello JAVA!!") ;
-      }
 ```  
+// メインクラス
+class HelloJava_Base  
+{
+  // メインメソッド  
+  public static void main(String[] args)
+  {
+	   // 処理を記述
+  }
+}
+```
+
+## 処理を記述します  
+
+```  
+// メインクラス
+class HelloJava_Base  
+{
+  // メインメソッド  
+  public static void main(String[] args)
+  {
+	   // 処理を記述
+     System.out.println("Hello JAVA!!") ;
+  }
+}
+
+```
+## ソースファイル
+　　HelloJava_Base.java
+## メインクラス
+   HelloJava_Base
+## メソッド
+　　無し
+　　
