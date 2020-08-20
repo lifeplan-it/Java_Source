@@ -19,7 +19,7 @@
    　Variable_Map_Base.Java
 * メインクラス名  
    　Variable_Map_Base
-* メソッド
+* メソッド  
 ** MAPの初期化を行うメソッド  
       Variable_Map_Init ( Map<String, String>)    
 ** MAPの表示を行うメソッド  
