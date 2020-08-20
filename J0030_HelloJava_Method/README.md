@@ -9,7 +9,7 @@
 
 # 処理内容
   メインメソッドから、メソッド(HelloJava_Print)を呼び出しています。  
-  メソッド(HelloJava_Print)は、標準出力に文字を出力する処理を行います。
+  メソッド(HelloJava_Print)は、標準出力に文字を出力する処理を行います。  
   メソッド(HelloJava_Print)の処理が終わると処理は呼び出されたメソッドに戻ります。  
 
 # ソースファイル
@@ -19,5 +19,5 @@
 　HelloJava_Method
 
 # メソッド
-## void HelloJava_Print
-   標準出力に文字を出力
+## void HelloJava_Print()
+   標準出力に文字を出力します。
