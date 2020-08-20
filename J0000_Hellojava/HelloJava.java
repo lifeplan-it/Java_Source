@@ -1,10 +1,16 @@
+/*
+# Java HelloJava　　
+　コンパイルテスト用のソースコードです  
+  文字列「Hello java」をコンソールに出力します。
+  初めて、Java　のコンパイルする方のタイピング用サンプルです。
+*/
+　
 // HelloJava.java
-// 文字列[HelloJava]を標準出力する
-// メインクラスの宣言
+// メインクラス
 class HelloJava {
-  //メインメソッドの宣言 
+  //メインメソッドの宣言
   public static void main(String[] args)  {
   	//文の記述
-	System.out.println ( "Hello JAVA!!" ) ;
+    System.out.println ( "Hello JAVA!!" ) ;
   }
 }
