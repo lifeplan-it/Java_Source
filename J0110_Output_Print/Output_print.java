@@ -67,9 +67,9 @@ class Output_print {
     System.out.println("改行しないで文字列のリテラル出力をするメソッド");
 
     System.out.print("printは");
-	  System.out.print("改行");
-	  System.out.print("しない");
-	  System.out.println("");
+    System.out.print("改行");
+    System.out.print("しない");
+    System.out.println("");
   }
 
   // 文字列のリテラルを結合して出力するメソッド
@@ -78,6 +78,6 @@ class Output_print {
     System.out.println("");
     System.out.println("文字列を結合してリテラル出力をするメソッド");
 
-	  System.out.println("文字を" + "+" + "で" + "連結する");
+    System.out.println("文字を" + "+" + "で" + "連結する");
   }
 }
