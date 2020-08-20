@@ -5,11 +5,11 @@
 ## クラスHelloJava_Baseを作成します  
 
 ```
- // メインクラス  
-  class HelloJava_Base  
-　　{  
-　　  // メインメソッドを記述する  
-　　}  
+// メインクラス  
+class HelloJava_Base  
+{  
+  // メインメソッドを記述する  
+}  
 ````
 
 ## メインメソッドを作成します。  
@@ -35,16 +35,16 @@ class HelloJava_Base
   // メインメソッド  
   public static void main(String[] args)
   {
-	   // 処理を記述
-     System.out.println("Hello JAVA!!") ;
+    // 処理を記述
+    System.out.println("Hello JAVA!!") ;
   }
 }
 
 ```
 ## ソースファイル
-　　HelloJava_Base.java
+    HelloJava_Base.java
 ## メインクラス
-   HelloJava_Base
+    HelloJava_Base
 ## メソッド
-　　無し
+    無し
 　　
