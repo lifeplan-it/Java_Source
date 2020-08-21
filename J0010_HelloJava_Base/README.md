@@ -1,8 +1,9 @@
 # java ソースコードの記述
 　初めてプログラミングをする方の為のベースになるサンプルプログラムです。  
-  クラスとメインメソッドを記述します。
-  　[参考 プログラミング　ベーシック]:https://program-basic.com/java/java-syntax-block/  
-  
+  クラスとメインメソッドを記述します。  
+
+  [参考 プログラミング　ベーシック](https://program-basic.com/java/java-syntax-block/)  
+    
 # クラスについて
 # 解説  
 ## クラス HelloJava_Base を作成します  
