@@ -1,7 +1,48 @@
 # Java メソッド作成
 　プログラミングの基礎勉強用のソースコードです。  
-  メソッドの使い方のサンプルです。    
+  メソッドの使い方のサンプルです。  
 
+# クラスについて
+# 解説  
+## クラス HelloJava_Base を作成します  
+
+# ソースコード記述の手順
+## メインクラスを作成    
+  ```
+  // メインクラス  
+  class HelloJava_Base  
+  {  
+    // メインメソッドを記述する  
+  }  
+  ````
+## メインメソッドを作成します。  
+
+  ```  
+  // メインクラス
+  class HelloJava_Base  
+  {
+    // メインメソッド  
+    public static void main(String[] args)
+    {
+  	   // 処理を記述
+    }
+  }
+  ```
+
+## 3)処理を記述します  
+
+  ```  
+  // メインクラス
+  class HelloJava_Base  
+  {
+    // メインメソッド  
+    public static void main(String[] args)
+    {
+      // 処理を記述
+      System.out.println("Hello JAVA!!") ;
+    }
+  }
+  ```  
 # 解説
 ## メソッドについて
   メソッドは、他のメソッドやメインメソッドから呼び出す事ができます。
