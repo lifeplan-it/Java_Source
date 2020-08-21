@@ -1,7 +1,8 @@
 # java HalloJava サンプル  
 　初めてプログラミングをする方の為のベースになるサンプルプログラムです。  
-　初めてJavaのソースコードを書く方の練習用のソースコードです。
+  クラスとメインメソッドを記述します。
 
+# クラスについて
 # 解説  
 ## クラスHelloJava_Baseを作成します  
 
@@ -42,7 +43,7 @@ class HelloJava_Base
     System.out.println("Hello JAVA!!") ;
   }
 }
- 
+
 ```
 ## ソースファイル  
     HelloJava_Base.java

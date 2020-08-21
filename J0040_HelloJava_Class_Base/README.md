@@ -23,13 +23,13 @@
   Hellojava_Class_Main.java
 
 # メインクラス  
-　Hellojava_Class_Main
+  Hellojava_Class_Main
 ## メソッド
-   サブクラスのインスタンス化を行う  
-     void Hellojava_Class_method()
+  サブクラスのインスタンス化を行う  
+  void Hellojava_Class_method()
 
 # サブクラス
   Hellojava_Class_sub
 ## メソッド
   標準出力に文字を出力します。
-    void HelloJava_Print()
+  void HelloJava_Print()
