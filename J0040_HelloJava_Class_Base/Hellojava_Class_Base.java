@@ -60,10 +60,16 @@ class Hellojava_Class_Base {
 // サブクラス
 class Hellojava_Class_sub
 {
+  // コンストラクタ
+  public void Hellojava_Class_sub() 
+  {
+     // 何も処理しない
+  }
+
   // メソッドの定義
   public void Standard_out()
   {
-    // 文字列 "Hello JAVA" を標準出力に出力する。 
+    // 文字列 "Hello JAVA" を標準出力に出力する。
     System.out.println("HelloJAVA");
   }
 }
