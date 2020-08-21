@@ -1,13 +1,14 @@
-# java HalloJava サンプル  
+# java ソースコードの記述
 　初めてプログラミングをする方の為のベースになるサンプルプログラムです。  
   クラスとメインメソッドを記述します。
-
+  　[参考 プログラミング　ベーシック]:https://program-basic.com/java/java-syntax-block/  
+  
 # クラスについて
 # 解説  
-## クラスHelloJava_Baseを作成します  
+## クラス HelloJava_Base を作成します  
 
-# プログラミングの手順
-## 1)メインクラスを作成します。  
+# ソースコード記述の手順
+## メインクラスを作成    
 ```
 // メインクラス  
 class HelloJava_Base  
@@ -15,8 +16,7 @@ class HelloJava_Base
   // メインメソッドを記述する  
 }  
 ````
-
-## 2)メインメソッドを作成します。  
+## メインメソッドを作成します。  
 
 ```  
 // メインクラス
@@ -43,8 +43,8 @@ class HelloJava_Base
     System.out.println("Hello JAVA!!") ;
   }
 }
+```  
 
-```
 ## ソースファイル  
     HelloJava_Base.java
 ## メインクラス  
