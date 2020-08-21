@@ -6,16 +6,25 @@
 　サブクラスをインスタンス化する事で、サブクラスのメソッドを利用できます。
 
 ## 基本構文
+### インスタンス化
 
-　　【サブクラス名】 【インスタンス変数名】= new [サブクラスのコンストラクタ名】 ;
+　　【サブクラス名】 【インスタンス変数名】= new [サブクラスのコンストラクタ名】 ;  
 
-サンプルコード
+### メソッドの実行
+
+    [インスタンス変数名].[メソッド呼び出し]  
+
+## サンプルコード
+
 ```
-     Hellojava_Class_sub Obj1 = new Hellojava_Class_sub() ;
+     // インスタンス化
+     Hellojava_Class_sub Obj1 = new Hellojava_Class_sub() ;  
+     // メソッドの実行
+     Obj1 = Standard_out() ;
 ```
 
 # 解説
-　サブクラス( Hellojava_Class_subClass )を作成します。
-　メインクラス( Hellojava_Class_Main )で、サブクラスをインスタンス化します。
-　インスタンス化する事で、サブクラスのメソッド( )
+　サブクラス( Hellojava_Class_subClass )を作成します。  
+　メインクラス( Hellojava_Class_Main )で、サブクラスをインスタンス化します。  
+　インスタンス化する事で、サブクラスのメソッド( Standard_out )が利用できます。
   インスタンス化の基本構文
