@@ -63,6 +63,7 @@ class Hellojava_Class_sub
   // メソッドの定義
   public void Standard_out()
   {
+    // 文字列 "Hello JAVA" を標準出力に出力する。 
     System.out.println("HelloJAVA");
   }
 }
