@@ -1,6 +1,11 @@
-// Hellojava_Class_Base.java
+/*
+#ソースファイル
+　　
+*/
+
+// Hellojava_Class_Main.java
 // メインクラス
-class Hellojava_Class_Base {
+class Hellojava_Class_Main {
   // メインメソッド
    public static void main(String[] args)
    {
@@ -12,7 +17,7 @@ class Hellojava_Class_Base {
    public static void Hellojava_Class_method()
    {
      // Hellojava_Class_subをインスタンス化
-   　Hellojava_Class_sub Obj1 = new Hellojava_Class_sub() ;
+     Hellojava_Class_sub Obj1 = new Hellojava_Class_sub() ;
      // サブクラスのメソッド呼び出し
      Obj1.Standard_out();
   }
