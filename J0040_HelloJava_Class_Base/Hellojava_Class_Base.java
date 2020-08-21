@@ -10,6 +10,9 @@
 
 クラスをインスタンス化する事で、クラスのメソッドを使用する事ができます。
 
+# クラスについて
+## クラスの基本構文
+　　
 # 処理内容
 サブクラス（Hellojava_Class_sub)を作成しています。
 
@@ -40,19 +43,19 @@
 // メインクラス
 class Hellojava_Class_Base {
   // メインメソッド
-   public static void main(String[] args)
-   {
+  public static void main(String[] args)
+  {
       // メソッド呼び出し
       Hellojava_Class_method() ;
-   }
+  }
 
-   // サブクラスのインスタンス化を行う
-   public static void Hellojava_Class_method()
-   {
-     // Hellojava_Class_subをインスタンス化
-     Hellojava_Class_sub Obj1 = new Hellojava_Class_sub() ;
-     // サブクラスのメソッド呼び出し
-     Obj1.Standard_out();
+  // サブクラスのインスタンス化を行う
+  public static void Hellojava_Class_method()
+  {
+    // Hellojava_Class_subをインスタンス化
+    Hellojava_Class_sub Obj1 = new Hellojava_Class_sub() ;
+    // サブクラスのメソッド呼び出し
+    Obj1.Standard_out();
   }
 }
 
@@ -61,7 +64,7 @@ class Hellojava_Class_Base {
 class Hellojava_Class_sub
 {
   // コンストラクタ
-  public void Hellojava_Class_sub() 
+  public void Hellojava_Class_sub()
   {
      // 何も処理しない
   }
