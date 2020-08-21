@@ -10,7 +10,7 @@
 クラスをインスタンス化する事で、クラスのメソッドを使用する事ができます。
 
 # 処理内容
-サブクラス（Hellojava_Class_sub)を追加しています。
+サブクラス（Hellojava_Class_sub)を作成しています。
 
 メインクラス(Hellojava_Class_Main)の
 メソッド(Hellojava_Class_method)の中で
@@ -20,11 +20,16 @@
 メインメソッド（Hellojava_Class_Main）側で使用する事ができます。
 　
 # ソースファイル
-  HelloJava_Method.java
+  Hellojava_Class_Main.java
 
 # メインクラス  
-　HelloJava_Method
+　Hellojava_Class_Main
+## メソッド
+   サブクラスのインスタンス化を行う  
+     void Hellojava_Class_method()
 
-# メソッド
-## void HelloJava_Print()
-   標準出力に文字を出力します。
+# サブクラス
+  Hellojava_Class_sub
+## メソッド
+  標準出力に文字を出力します。
+    void HelloJava_Print()
