@@ -31,7 +31,7 @@
 ```  
 # ソースファイル名
 　HelloJava.java
-# クラス
+# クラス名
 　HelloJava
 # メソッド
 　無し
