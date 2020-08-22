@@ -1,4 +1,4 @@
-Windows から実行できる　Jar　ファイルの作成方法です。
+# Java Windows から起動できる HelloJava GUI  
 
 １）ソースファイルを作ります。
 　　ソースファイル名：HelloJava_Gui.java　
@@ -17,7 +17,7 @@ Windows から実行できる　Jar　ファイルの作成方法です。
 
 ４）jar ファイルを作ります。
        構文
-　　jar cvfm [jarファイル名]  [マニフェストファイル名]  [クラスファイル名] 
+　　jar cvfm [jarファイル名]  [マニフェストファイル名]  [クラスファイル名]
 
 　　サンプルコード
 　　jar cvfm HelloJava_Gui.jar HelloJava_Gui.mf *.class
