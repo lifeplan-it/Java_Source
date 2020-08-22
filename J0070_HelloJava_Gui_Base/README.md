@@ -1,3 +1,4 @@
+# Java Gui に文字列を出力する。
 １）メインクラスのメインメソッドは、
 　　メソッド「HelloJava_Gui_Method」を呼び出しています。
 ２）メソッド「HelloJava_Gui_Method」は、
