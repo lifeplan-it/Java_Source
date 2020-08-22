@@ -1,56 +1,56 @@
-# java ƒ\[ƒXƒR[ƒh‚Ì‹Lq
-@‰‚ß‚ÄƒvƒƒOƒ‰ƒ~ƒ“ƒO‚ð‚·‚é•û‚Ìˆ×‚Ìƒx[ƒX‚É‚È‚éƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚·B  
-  ƒNƒ‰ƒX‚ÆƒƒCƒ“ƒƒ\ƒbƒh‚ð‹Lq‚µ‚Ü‚·B  
+# java ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã®è¨˜è¿°
+ã€€åˆã‚ã¦ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°ã‚’ã™ã‚‹æ–¹ã®ç‚ºã®ãƒ™ãƒ¼ã‚¹ã«ãªã‚‹ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚  
+  ã‚¯ãƒ©ã‚¹ã¨ãƒ¡ã‚¤ãƒ³ãƒ¡ã‚½ãƒƒãƒ‰ã‚’è¨˜è¿°ã—ã¾ã™ã€‚  
 
-  [ŽQl:program-basic](https://program-basic.com/java/java-start/hello-java/)  
+  [å‚è€ƒ:program-basic](https://program-basic.com/java/java-start/hello-java/)  
 
-# ƒNƒ‰ƒX‚É‚Â‚¢‚Ä
-# ‰ðà  
-## ƒNƒ‰ƒX HelloJava_Base ‚ðì¬‚µ‚Ü‚·  
+# ã‚¯ãƒ©ã‚¹ã«ã¤ã„ã¦
+# è§£èª¬  
+## ã‚¯ãƒ©ã‚¹ HelloJava_Base ã‚’ä½œæˆã—ã¾ã™  
 
-# ƒ\[ƒXƒR[ƒh‹Lq‚ÌŽè‡
-## ƒƒCƒ“ƒNƒ‰ƒX‚ðì¬    
+# ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰è¨˜è¿°ã®æ‰‹é †
+## ãƒ¡ã‚¤ãƒ³ã‚¯ãƒ©ã‚¹ã‚’ä½œæˆ    
 ```
-// ƒƒCƒ“ƒNƒ‰ƒX  
+// ãƒ¡ã‚¤ãƒ³ã‚¯ãƒ©ã‚¹  
 class HelloJava_Base  
 {  
-  // ƒƒCƒ“ƒƒ\ƒbƒh‚ð‹Lq‚·‚é  
+  // ãƒ¡ã‚¤ãƒ³ãƒ¡ã‚½ãƒƒãƒ‰ã‚’è¨˜è¿°ã™ã‚‹  
 }  
 ````
-## ƒƒCƒ“ƒƒ\ƒbƒh‚ðì¬‚µ‚Ü‚·B  
+## ãƒ¡ã‚¤ãƒ³ãƒ¡ã‚½ãƒƒãƒ‰ã‚’ä½œæˆã—ã¾ã™ã€‚  
 
 ```  
-// ƒƒCƒ“ƒNƒ‰ƒX
+// ãƒ¡ã‚¤ãƒ³ã‚¯ãƒ©ã‚¹
 class HelloJava_Base  
 {
-  // ƒƒCƒ“ƒƒ\ƒbƒh  
+  // ãƒ¡ã‚¤ãƒ³ãƒ¡ã‚½ãƒƒãƒ‰  
   public static void main(String[] args)
   {
-	   // ˆ—‚ð‹Lq
+	   // å‡¦ç†ã‚’è¨˜è¿°
   }
 }
 ```
 
-## 3)ˆ—‚ð‹Lq‚µ‚Ü‚·  
+## 3)å‡¦ç†ã‚’è¨˜è¿°ã—ã¾ã™  
 
 ```  
-// ƒƒCƒ“ƒNƒ‰ƒX
+// ãƒ¡ã‚¤ãƒ³ã‚¯ãƒ©ã‚¹
 class HelloJava_Base  
 {
-  // ƒƒCƒ“ƒƒ\ƒbƒh  
+  // ãƒ¡ã‚¤ãƒ³ãƒ¡ã‚½ãƒƒãƒ‰  
   public static void main(String[] args)
   {
-    // ˆ—‚ð‹Lq
+    // å‡¦ç†ã‚’è¨˜è¿°
     System.out.println("Hello JAVA!!") ;
   }
 }
 ```  
 
-## ƒ\[ƒXƒtƒ@ƒCƒ‹  
+## ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«  
     HelloJava_Base.java
-## ƒƒCƒ“ƒNƒ‰ƒX  
+## ãƒ¡ã‚¤ãƒ³ã‚¯ãƒ©ã‚¹  
     HelloJava_Base
-## ƒƒ\ƒbƒh  
-    –³‚µ  
+## ãƒ¡ã‚½ãƒƒãƒ‰  
+    ç„¡ã—  
 
-@@
+ã€€ã€€
