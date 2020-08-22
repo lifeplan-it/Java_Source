@@ -4,6 +4,7 @@ class Class_Encapsulation_Base  {
  	Private_out_print Obj1 = new Private_out_print();
   	// Obj1.Local_str = "Hello" ;　ローカル変数にはアクセスできない
 	Obj1.Public_str = "Public変数の値" ;
+
 	String str = "引数の値" ;
 	Obj1.Standard_out_print( str );
 	Obj1.Local_out_print ( );
