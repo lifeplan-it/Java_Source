@@ -1,37 +1,37 @@
-# Java ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ãƒ†ã‚¹ãƒˆ
-# æ¦‚è¦
-  ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ãƒ†ã‚¹ãƒˆç”¨ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã§ã™  
-  æ–‡å­—åˆ—ã€ŒHello javaã€ã‚’ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«å‡ºåŠ›ã—ã¾ã™ã€‚  
+# Java ƒRƒ“ƒpƒCƒ‹ƒeƒXƒg
+# ŠT—v
+  ƒRƒ“ƒpƒCƒ‹ƒeƒXƒg—p‚Ìƒ\[ƒXƒR[ƒh‚Å‚·  
+  •¶Žš—ñuHello javav‚ðƒRƒ“ƒ\[ƒ‹‚Éo—Í‚µ‚Ü‚·B  
 
-# è§£èª¬
-ã€€ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã—ã¦å®Ÿè¡Œã™ã‚‹ã¾ã§ã®æ‰‹é †ã‚’ã¾ã¨ã‚ã¾ã™ã€‚
+# ‰ðà
+@ƒ\[ƒXƒR[ƒh‚ðƒRƒ“ƒpƒCƒ‹‚µ‚ÄŽÀs‚·‚é‚Ü‚Å‚ÌŽè‡‚ð‚Ü‚Æ‚ß‚Ü‚·B
 
-# ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«æ‰‹é †
-## ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã®ä½œæˆ
-  ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’ã‚³ãƒ”ãƒ¼ã—ã¦ãƒ†ã‚­ã‚¹ãƒˆï¼ˆã‚½ãƒ¼ã‚¹ï¼‰ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆã—ã¾ã™ã€‚  
-  ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«åï¼šHelloJava.java
-## ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«
-  ã‚«ãƒ¬ãƒ³ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã§ã€javacã€‘ã‚³ãƒžãƒ³ãƒ‰ã§ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã—ã¾ã™ã€‚
+# ƒRƒ“ƒpƒCƒ‹Žè‡
+## ƒ\[ƒXƒR[ƒh‚Ìì¬
+  ƒ\[ƒXƒR[ƒh‚ðƒRƒs[‚µ‚ÄƒeƒLƒXƒgiƒ\[ƒXjƒtƒ@ƒCƒ‹‚ðì¬‚µ‚Ü‚·B  
+  ƒ\[ƒXƒtƒ@ƒCƒ‹–¼FHelloJava.java
+## ƒRƒ“ƒpƒCƒ‹
+  ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ÅyjavaczƒRƒ}ƒ“ƒh‚ÅƒRƒ“ƒpƒCƒ‹‚µ‚Ü‚·B
 
-### ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã®åŸºæœ¬æ§‹æ–‡
-  $ javac ã€ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«åã€‘
+### ƒRƒ“ƒpƒCƒ‹‚ÌŠî–{\•¶
+  $ javac yƒ\[ƒXƒtƒ@ƒCƒ‹–¼z
 
-### ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ¼ãƒ‰  
+### ƒTƒ“ƒvƒ‹ƒR[ƒh  
 ```
-ã€€$ javac HelloJava.java
+@$ javac HelloJava.java
 ```  
-## å®Ÿè¡Œ  
-  ã‚«ãƒ¬ãƒ³ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã§ã€javaã€‘ã‚³ãƒžãƒ³ãƒ‰ã§ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã—ã¾ã™ã€‚
-### å®Ÿè¡Œã®åŸºæœ¬æ§‹æ–‡
-  $ java ã€ã‚¯ãƒ©ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«åã€‘
+## ŽÀs  
+  ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ÅyjavazƒRƒ}ƒ“ƒh‚ÅƒRƒ“ƒpƒCƒ‹‚µ‚Ü‚·B
+### ŽÀs‚ÌŠî–{\•¶
+  $ java yƒNƒ‰ƒXƒtƒ@ƒCƒ‹–¼z
 
-### ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ¼ãƒ‰    
+### ƒTƒ“ƒvƒ‹ƒR[ƒh    
 ```
-ã€€$ java HelloJava
+@$ java HelloJava
 ```  
-# ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«å
-ã€€HelloJava.java
-# ã‚¯ãƒ©ã‚¹å
-ã€€HelloJava
-# ãƒ¡ã‚½ãƒƒãƒ‰
-ã€€ç„¡ã—
+# ƒ\[ƒXƒtƒ@ƒCƒ‹–¼
+@HelloJava.java
+# ƒNƒ‰ƒX–¼
+@HelloJava
+# ƒƒ\ƒbƒh
+@–³‚µ
