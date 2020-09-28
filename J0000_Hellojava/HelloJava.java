@@ -11,7 +11,7 @@
 # メソッド
 　無し
 */
-　
+
 // HelloJava.java
 // メインクラス
 class HelloJava {
